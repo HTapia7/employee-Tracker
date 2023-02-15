@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const express = require('express')
 const mysql  = require('mysql2');
-// const { viewAllDepartments } = require('./functions');
 const cTable = require('console.table');
 
 // Database connection
@@ -46,7 +45,7 @@ const promptUser = () => {
             addNewDepartment();
             break;
 
-
+          
 
 
       }
@@ -84,3 +83,9 @@ const addNewDepartment = () => {
       })
   })
 };
+
+// const viewAllEmployees = () => {};
+
+// const addRole  = () => {
+  
+// }
