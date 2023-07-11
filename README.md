@@ -22,4 +22,6 @@ THEN I am prompted to enter the name of the department and that department is ad
 ## Technolgies
 
 * SQL 
-* Node 
+* Node
+* Express
+* JavaScript
